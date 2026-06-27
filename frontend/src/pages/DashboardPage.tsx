@@ -3,7 +3,7 @@ import { userApi } from '@/api/userApi'
 import { useAuth } from '@/contexts/AuthContext'
 import { useRefreshAnalytics } from '@/hooks/useAnalytics'
 import {
-  Zap, TrendingUp, Target, Award, RefreshCw,
+  Zap, Target, Award, RefreshCw,
   Loader2, Link2, ChevronRight
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
@@ -11,7 +11,7 @@ import {
   RadarChart, Radar, PolarGrid, PolarAngleAxis,
   ResponsiveContainer, Tooltip
 } from 'recharts'
-import { tooltipStyle, MASTERY_COLORS } from '@/charts/ChartTheme'
+import { tooltipStyle } from '@/charts/ChartTheme'
 
 function StatCard({ label, value, sub, accent = false }: {
   label: string; value: string | number; sub?: string; accent?: boolean

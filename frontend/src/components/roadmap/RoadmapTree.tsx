@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo} from 'react'
 import type { RoadmapNodeData } from '@/api/roadmapApi'
 import { Lock, CircleDot, CheckCircle2, Circle } from 'lucide-react'
 import { clsx } from 'clsx'
@@ -49,7 +49,7 @@ function computeDepth(nodes: RoadmapNodeData[]): Map<string, number> {
 }
 
 export function RoadmapTree({ nodes, selectedKey, onSelect }: Props) {
-  const { positions, columns, width, height } = useMemo(() => {
+  const { positions, width, height } = useMemo(() => {
     const depthMap = computeDepth(nodes)
     const byCol = new Map<number, RoadmapNodeData[]>()
     nodes.forEach(n => {

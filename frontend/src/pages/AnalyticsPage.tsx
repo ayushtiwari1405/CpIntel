@@ -6,9 +6,9 @@ import {
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, BarChart, Bar,
-  Cell, Legend
+  Cell
 } from 'recharts'
-import { RefreshCw, Loader2, TrendingUp, Target, Award } from 'lucide-react'
+import { RefreshCw, Loader2, TrendingUp, Target} from 'lucide-react'
 import { tooltipStyle, axisStyle, PLATFORM_COLORS, MASTERY_COLORS } from '@/charts/ChartTheme'
 import { clsx } from 'clsx'
 

@@ -3,7 +3,7 @@ import { useAuth } from '@/contexts/AuthContext'
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { userApi } from '@/api/userApi'
 import { useToast } from '@/components/common/Toaster'
-import { User, Save, Loader2 } from 'lucide-react'
+import { Save, Loader2 } from 'lucide-react'
 
 export default function ProfilePage() {
   const { user } = useAuth()

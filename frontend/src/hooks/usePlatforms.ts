@@ -1,7 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { platformApi } from '@/api/platformApi'
 import { useToast } from '@/components/common/Toaster'
-import { useEffect, useRef } from 'react'
+import {  useRef } from 'react'
 
 export function useLinkedAccounts() {
   return useQuery({

@@ -3,7 +3,7 @@ import {
   useDailyRecs, useWeeklyRecs,
   useRevisionQueue, useMarkRevisionDone
 } from '@/hooks/useAnalytics'
-import { Lightbulb, BookOpen, RefreshCcw, Check, Loader2, Clock } from 'lucide-react'
+import { Lightbulb, BookOpen, Check, Loader2, Clock } from 'lucide-react'
 import { formatDistanceToNow } from 'date-fns'
 import { clsx } from 'clsx'
 
